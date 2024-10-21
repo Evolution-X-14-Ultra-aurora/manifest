@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Dago -->
+  <remote  name="evo_dago"
+           fetch="https://github.com/Evolution-X-14-Ultra-aurora" />
+           
+  <!-- Lolipuru -->
+  <remote  name="lolipuru"
+           fetch="https://github.com/lolipuru" />
+           
+  <!-- Xiaomi-8560 -->
+  <remote  name="markakash"
+           fetch="https://gitlab.com/xiaomi-8560" />
+           
+  <!-- Xiaomi-SM8650 -->
+  <remote  name="xiaomi-SM8650"
+           fetch="https://github.com/Xiaomi-SM8650" />
+
+  <!-- Sm8650-->
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" remote="evo_dago" revision="refs/heads/lineage-21.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" remote="evo_dago" revision="refs/heads/lineage-21.0-caf-sm8650" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" remote="evo_dago" revision="refs/heads/lineage-21.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" remote="evo_dago" revision="refs/heads/lineage-21.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="evo_dago" revision="refs/heads/lineage-21.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/media" name="android_hardware_qcom_media" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom-opensource_wfd-commonsys" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="vendor/st/opensource/eSE-driver" name="vendor_st_opensource_eSE-driver" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="vendor/nxp/opensource/driver" name="vendor_nxp_opensource_driver" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+
+  <!--Xiaomi14Serie -->
+  <project path="device/xiaomi/houji" name="android_device_xiaomi_houji" remote="evo_dago" revision="refs/heads/lineage-21" />
+  <project path="device/xiaomi/sm8650-common" name="device_xiaomi_sm8650-common" remote="evo_dago" revision="refs/heads/lineage-21" />
+  <project path="android/kernel/xiaomi/sm8650" name="android_kernel_xiaomi_sm8650" remote="evo_dago" revision="refs/heads/lineage-21" />
+  <project path="kernel/xiaomi/sm8650-modules" name="kernel_xiaomi_sm8650-modules" remote="evo_dago" revision="refs/heads/lineage-21" />
+  <project path="kernel_qcom_sm8650" name="android_kernel_qcom_sm8650" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="device/xiaomi/aurora" name="device_xiaomi_aurora" remote="evo_dago" revision="refs/heads/lineage-21.0" />
+  <project path="device/xiaomi/aurora-kernel" name="device_xiaomi_aurora-kernel" remote="evo_dago" revision="refs/heads/fourteen" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo_dago" revision="refs/heads/fourteen" />
+
+</manifest> 
